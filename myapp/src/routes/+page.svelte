@@ -1,23 +1,29 @@
 <script>
 	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
+	import welcome from '$lib/images/front-page.jpg';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	
 </script>
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="recipe search engine demo app" />
 </svelte:head>
 
 <section>
 	<h1>
 		<span class="welcome">
 			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
+				<source srcset={welcome} type="image/jpg" />
+				<img src={welcome} alt="Gluten-free baked item" />
 			</picture>
 		</span>
+		
+	</h1>
+</section>
 
+<section>
+	<h1>
 		to your new<br />SvelteKit app
 	</h1>
 
@@ -44,15 +50,15 @@
 	.welcome {
 		display: block;
 		position: relative;
-		width: 100%;
-		height: 0;
+		width: auto;
+		height: auto;
 		padding: 0 0 calc(100% * 495 / 2048) 0;
 	}
 
 	.welcome img {
 		position: absolute;
-		width: 100%;
-		height: 100%;
+		width: 25em;
+		height: 16em;
 		top: 0;
 		display: block;
 	}
