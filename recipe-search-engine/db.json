@@ -40,31 +40,35 @@
 
 ], 
 
-    "easiest-recipe": [
+"easiest-recipe": 
     {
         "id": 44,
         "title": "No-nut coconut bars"
-    } 
-
-
-],
-    "seasons-favourite-recipe": [
+    },
+"seasons-favourite-recipe": 
     {
         "id": 55,
         "title": "Spicy Habenaro gluten-free black bean burger"
-    } 
-
-
-],
-    "most-liked-recipe": [
+    },
+"most-liked-recipe": 
     {
         "id": 33,
         "title": "Chicken Pad Thai"
-    } 
-
-
-],
-  
+    },
+"recently-added" : [
+    {
+        "id": 100,
+        "title": "Soup"
+    },
+    {
+        "id": 20,
+        "title": "Rice"
+    },
+    {
+        "id": 30,
+        "title": "Salad"
+    }
+  ],
   "extendedIngredients": [
     {
         "id": 1001,

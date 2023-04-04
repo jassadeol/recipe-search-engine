@@ -1,18 +1,16 @@
 <script>
+    import {invalidateAll} from '$app/navigation';
     export let data;
-    //<span> Easiest Recipe - {data.easiestRecipe.id}</span>
-//<span> Season's favourite - {data.seasonsFavourite.title}</span>
+    function refresh() {
+        //invalidate('http://localhost:4000/recently-added');
+        //invalidate('recipes:easy')??  
+        invalidateAll();
+    }
 </script>
 
-<h1> Here's what people have said </h1>
+<h1> Recently added recipes </h1>
+{#each data.recipes as recipe}
+    <h2>{recipe.id} - {recipe.title}</h2>
+{/each}
 
-
-<span> Most liked Recipe - {data.mostLikedRecipe.title}</span>
-<slot/>
-
-<style>
-    span {
-        margin-right: 30px;
-        font-size: 20px;
-    }
-</style>
+<button on:click={refresh}>Refresh</button>

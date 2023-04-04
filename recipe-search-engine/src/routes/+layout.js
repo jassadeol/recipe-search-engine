@@ -1,6 +1,6 @@
 export const load = () => {
     return {
         username: "Jasleen",
-        notification: "sounds good"
+        notification: "This is a notification"
     }
 }

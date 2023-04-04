@@ -4,6 +4,8 @@
     const {username} = data;
 </script>
 
-<p> {$page.data.notification}</p>
+
 <div> Welcome, {username}</div>
 <slot/>
+
+<p> {$page.data.notification}</p>
