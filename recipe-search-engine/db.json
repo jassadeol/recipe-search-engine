@@ -15,6 +15,55 @@
           "imageType": "jpg"
       }
   ], 
+  "featured-recipes": [
+    {
+        "id": 1,
+        "title": "Nachos",
+        "image": "https://spoonacular.com/recipeImages/716429-312x231.jpg",
+        "description": "Description", 
+        "imageType": "jpg"
+    },
+    {
+        "id": 2,
+        "title": "Burritos",
+        "image": "https://spoonacular.com/recipeImages/715538-312x231.jpg",
+        "description": "Description 2", 
+        "imageType": "jpg"
+    },
+    {
+        "id": 3,
+        "title": "Quesadilla",
+        "image": "https://spoonacular.com/recipeImages/715538-312x231.jpg",
+        "description": "Description 3", 
+        "imageType": "jpg"
+    }
+
+], 
+
+    "easiest-recipe": [
+    {
+        "id": 44,
+        "title": "No-nut coconut bars"
+    } 
+
+
+],
+    "seasons-favourite-recipe": [
+    {
+        "id": 55,
+        "title": "Spicy Habenaro gluten-free black bean burger"
+    } 
+
+
+],
+    "most-liked-recipe": [
+    {
+        "id": 33,
+        "title": "Chicken Pad Thai"
+    } 
+
+
+],
   
   "extendedIngredients": [
     {
